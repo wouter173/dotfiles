@@ -1,0 +1,96 @@
+# Disable the package module, hiding it from the prompt completely
+
+# Use custom format
+
+# Wait 10 milliseconds for starship to check files under the current directory.
+scan_timeout = 10
+
+format="""
+$hostname ($directory$git_branch)$character
+"""
+
+[hostname]
+format = "[$hostname]($style) [at](grey)"
+style = "fg:9"
+
+[directory]
+style = "fg:15"
+
+[character]
+success_symbol = "[❯](fg:9)"
+error_symbol = "[❯](bold red)"
+
+[package]
+disabled = true
+
+[nodejs]
+disabled=true
+
+[aws]
+symbol = " "
+
+[battery]
+disabled=true
+full_symbol = ""
+charging_symbol = ""
+discharging_symbol = ""
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
