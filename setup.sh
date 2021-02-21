@@ -7,10 +7,10 @@ ln -s ~/.dotfiles/.config/* ~/.config
 ln -s ~/.dotfiles/scripts/* "/usr/local/bin"
 
 # install starship
-# sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
 #install ohmyzsh
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 #install micro
-# curl https://getmic.ro | bash
+curl https://getmic.ro | bash
