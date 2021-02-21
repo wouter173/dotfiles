@@ -6,7 +6,7 @@
 scan_timeout = 10
 
 format="""
-$hostname ($directory$git_branch)$character
+$hostname($directory$git_branch)$character
 """
 
 [hostname]
@@ -14,10 +14,10 @@ format = "[$hostname]($style) [at](grey)"
 style = "fg:9"
 
 [directory]
-style = "fg:15"
+style = "fg:14"
 
 [character]
-success_symbol = "[❯](fg:9)"
+success_symbol = "[❯](fg:10)"
 error_symbol = "[❯](bold red)"
 
 [package]

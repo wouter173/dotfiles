@@ -1,7 +1,16 @@
 # dotfiles
 
-Tools
+## Tools
 - zsh
-- htop
-- neofetch
+- oh-my-zsh
 - starship
+- gitconfig
+- micro
+
+## Scripts
+- afetch
+- hide/unhide
+
+
+## Misc
+- aliases
