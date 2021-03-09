@@ -1,8 +1,7 @@
 # dotfiles
 
 ## Tools
-- zsh
-- oh-my-zsh
+- fish
 - starship
 - gitconfig
 - micro
@@ -10,6 +9,7 @@
 ## Scripts
 - afetch
 - hide/unhide
+- catsay
 
 
 ## Misc
