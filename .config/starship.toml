@@ -10,7 +10,7 @@ $hostname($directory$git_branch)$character
 """
 
 [hostname]
-format = "[$hostname]($style) [at](grey)"
+format = "[$hostname]($style)[ at ](grey)"
 style = "fg:9"
 
 [directory]
