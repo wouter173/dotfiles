@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd ~
 git clone "https://github.com/wouter173/dotfiles" ~/.dotfiles
 
 #macos
@@ -32,5 +32,6 @@ fi
 # site installs
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 sh -c "$(curl https://getmic.ro)"
+mv ./micro "/usr/local/bin"
 
 chsh -s `which fish`
