@@ -9,18 +9,22 @@ if [[ `uname` = "Darwin" ]]; then
 	brew install lsd
 
 	#symlinks
-	ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-	ln -s ~/.dotfiles/.config/* ~/.config
-	ln -s ~/.dotfiles/scripts/macos/* "/usr/local/bin"
+	mkdir ~/.config
+	
+	ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
+	ln -sf ~/.dotfiles/.config/* ~/.config
+	ln -sf ~/.dotfiles/scripts/macos/* "/usr/local/bin"
 	
 elif [[ `uname` = "Linux" ]]; then
 	#apt installs
 	apt install fish
 
 	#symlinks
-	ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-	ln -s ~/.dotfiles/.config/* ~/.config
-	ln -s ~/.dotfiles/scripts/linux/* "/usr/local/bin"
+	mkdir ~/.config
+	
+	ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
+	ln -sf ~/.dotfiles/.config/* ~/.config
+	ln -sf ~/.dotfiles/scripts/linux/* "/usr/local/bin"
 	
 fi
 
