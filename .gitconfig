@@ -6,7 +6,10 @@
 [user]
 	name = wouter
 	email = 31807225+wouter173@users.noreply.github.com
+	signingkey = 15415C2A087AB00B
 [core]
 	editor = micro
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
