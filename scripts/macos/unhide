@@ -1,2 +1,2 @@
 #!/bin/bash
-chflags noxhidden "$@"
+chflags nohidden "$@"
