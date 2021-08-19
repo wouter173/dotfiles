@@ -4,8 +4,8 @@ alias vim='echo Nope'
 alias vi='vim'
 
 #directory aliases
-alias ls='lsd -a'
-alias la='lsd -la'
+alias ls='lsd'
+alias la='lsd -a'
 
 alias cdd='cd ..'
 
